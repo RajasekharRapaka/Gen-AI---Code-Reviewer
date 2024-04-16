@@ -3,7 +3,7 @@ import openai
 from openai import OpenAI
 
 # Set API Key
-with open("C:/Users/rjsek/OneDrive/Documents/Work and Professional documents/Innomatics Research Labs/Data Science Internship Jan 2024/Gen AI App/.Gen AI Key.txt") as f:
+with open("/path to key.txt") as f:
     OPENAI_API_KEY = f.read()
 client = OpenAI(api_key=OPENAI_API_KEY)
 
